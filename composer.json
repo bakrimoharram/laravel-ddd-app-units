@@ -1,0 +1,25 @@
+{
+    "name": "bakrimoharram/laravel-ddd-app-units",
+    "type": "package",
+    "license": "MIT",
+    "description": "App Unit Support for DDD Laravel Applications.",
+    "authors": [
+        {
+            "name": "BakriMoharram",
+            "email": "Bakri_Moharram@hotmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/bakrimoharram/laravel-ddd-app-units/issues",
+        "source": "https://github.com/bakrimoharram/laravel-ddd-app-units"
+    },
+    "require": {
+        "laravel/framework": "^8.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "BakriMoharram\\AppUnits\\": "src/"
+        }
+    }
+}

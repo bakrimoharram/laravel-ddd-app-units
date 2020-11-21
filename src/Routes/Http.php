@@ -2,9 +2,11 @@
 
 namespace BakriMoharram\AppUnits\Routes;
 
+use Illuminate\Routing\Router;
+
 abstract class Http
 {
-    protected $router;
+    protected Router $router;
 
     protected $options;
 
